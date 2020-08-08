@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Boost Digital</title>
+
+    <!-- NORMALIZE -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+
+    <!-- FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Raleway:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BOOTSTRAP css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- JASNY -->
+    <link href="https://www.jasny.net/bootstrap/dist/css/jasny-bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS FILE -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body>
+    <!-- NAV SECTION -->
+
+    <!-- OFF CANVAS NAV -->
+    <div class="navmenu collapse offcanvas navmenu-fixed-left">
+      <a class="navmenu-brand text-center" href="/index.html">BOOST DIGITAL</a>
+      <ul class="nav navmenu-nav flex-column">
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle font-weight-bold" data-toggle="dropdown">Our Services <b class="caret"></b></a>
+          <ul class="dropdown-menu navmenu-nav text-center">
+            <h3 class="dropdown-header text-center"><span><i class="fa fa-cogs mr-3" aria-hidden="true"></i></span>Marketing and Optimization</h3>
+            <a class="dropdown-item" href="html-pages/our-services/marketing-strategy.html">Business Marketing Strategy</a>
+            <a class="dropdown-item" href="html-pages/our-services/content-creation.html">Content Creation and Marketing</a>
+            <div class="dropdown-divider"></div>
+            <h3 class="dropdown-header text-center"><span><i class="fa fa-paint-brush mr-3" aria-hidden="true"></i></span>Design and Development</h3>
+            <a class="dropdown-item" href="html-pages/our-services/graphic-design.html">Graphic & Publication Design</a>
+            <a class="dropdown-item" href="html-pages/our-services/video-production.html">Video Production & Editing</a>
+            <a class="dropdown-item" href="html-pages/our-services/web-design.html">Website Design & Development</a>
+            <div class="dropdown-divider"></div>
+            <h3 class="dropdown-header text-center"><span><i class="fa fa-terminal mr-3" aria-hidden="true"></i></span>Account Management</h3>
+            <a class="dropdown-item" href="html-pages/our-services/socmed-manage.html">Social Media Management</a>
+            <a class="dropdown-item" href="html-pages/our-services/ppc-manage.html">Pay Per Click (PPC) Management</a>
+            <a class="dropdown-item" href="html-pages/our-services/website-hosting.html">Website Hosting & Management</a>
+          </ul>
+        </li>
+        <li class="nav-item font-weight-bold"><a class="nav-link" href="/html-pages/portfolio.html">Portfolio</a></li>
+        <li class="nav-item font-weight-bold"><a class="nav-link" href="/html-pages/blog.html">Blog</a></li>
+        <li class="nav-item font-weight-bold"><a class="nav-link" href="/html-pages/contact-us.html">Contact Us</a></li>
+        <ul class="nav list-unstyled d-flex flex-row justify-content-center">
+          <li class="nav-item mr-3">
+            <a class="footer-link icon" href="https://facebook.com/" target="_blank">
+              <span class="fa fa-facebook-square fa-lg"></span>
+            </a>
+          </li>
+          <li class="nav-item mr-3">
+            <a class="footer-link icon" href="https://twitter.com/home" target="_blank">
+              <span class="fa fa-twitter-square fa-lg "></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="footer-link icon" data-toggle="modal" data-target="#exampleModal" href="#">
+              <span class="fa fa-phone-square fa-lg"></span>
+            </a>
+          </li>
+        </ul>
+      </ul>
+    </div>
+
+    <!-- NAVBAR NAV -->
+    <div class="canvas">
+      <header class="navbar navbar-light bg-white fixed-top" style="width: 100%">
+        <div class="container-xl">
+          <button class="navbar-toggler d-md-none" type="button" data-toggle="offcanvas" data-target=".navmenu" data-recalc="false" data-canvas=".canvas">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex align-items-end order-2 order-md-0">
+            <a class="navbar-img" href="/index.html">
+              <img
+              href="/index.html"
+              class="navbar-brand mr-0"
+              src="assets/images/logo.png"
+              alt="Header Logo"
+              height="60"
+            />
+            </a>
+          </div>
+          <ul class="nav ml-auto d-none d-md-flex mr-2">
+            <li class="nav-items mx-1">
+              <a href="/index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-items dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" >Our Services <b class="caret"></b></a>
+              <div class="dropdown-menu">
+                <h3 class="dropdown-header text-center"><span><i class="fa fa-cogs mr-3" aria-hidden="true"></i></span>Marketing and Optimization</h3>
+                <a class="dropdown-item" href="html-pages/our-services/marketing-strategy.html">Business Marketing Strategy</a>
+                <a class="dropdown-item" href="html-pages/our-services/content-creation.html">Content Creation and Marketing</a>
+                <div class="dropdown-divider "></div>
+                <h3 class="dropdown-header text-center"><span><i class="fa fa-paint-brush mr-3" aria-hidden="true"></i></span>Design and Development</h3>
+                <a class="dropdown-item" href="html-pages/our-services/graphic-design.html">Graphic & Publication Design</a>
+                <a class="dropdown-item" href="html-pages/our-services/video-production.html">Video Production & Editing</a>
+                <a class="dropdown-item" href="html-pages/our-services/web-design.html">Website Design & Development</a>
+                <div class="dropdown-divider"></div>
+                <h3 class="dropdown-header text-center"><span><i class="fa fa-terminal mr-3" aria-hidden="true"></i></span>Account Management</h3>
+                <a class="dropdown-item" href="html-pages/our-services/socmed-manage.html">Social Media Management</a>
+                <a class="dropdown-item" href="html-pages/our-services/ppc-manage.html">Pay Per Click (PPC) Management</a>
+                <a class="dropdown-item" href="html-pages/our-services/website-hosting.html">Website Hosting & Management</a>
+              </div>
+            </li>
+            <li class="nav-items mx-1">
+              <a href="/html-pages/portfolio.html" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-items mx-1">
+              <a href="/html-pages/blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-items mx-1">
+              <a href="/html-pages/contact-us.html" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+
+          <ul class="nav list-unstyled d-flex flex-row justify-content-end">
+            <li class="nav-item mr-3 d-none d-md-block">
+              <a class="footer-link icon" href="https://facebook.com/" target="_blank">
+                <span class="fa fa-facebook-square fa-lg"></span>
+              </a>
+            </li>
+            <li class="nav-item mr-3 d-none d-md-block">
+              <a class="footer-link icon" href="https://twitter.com/home" target="_blank">
+                <span class="fa fa-twitter-square fa-lg "></span>
+              </a>
+            </li>
+            <li class="nav-item d-none d-md-block">
+              <a class="footer-link icon" data-toggle="modal" data-target="#exampleModal" href="#">
+                <span class="fa fa-phone-square fa-lg"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    
+    <!-- HERO SECTION -->
+    <section class="hero peach-gradient d-flex align-items-center">
+      <div class="container-xxl section-padding ">
+        <div class="row px-md-5">
+          <div class="mb-5 col-md-5 align-self-center text-center text-md-left">
+            <h1 class="mt-5 mb-4 text-white">
+              Local SEO & Business Listings
+            </h1>
+            <h3 class="mb-4 text-white">
+              85% of Consumers Use the Internet to Find Local Businesses. Are
+              They Finding Yours?
+            </h3>
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control form-control-lg w-100" id="exampleFormControlInput1" placeholder="Enter your email address">
+              </div>
+            </form>
+            <div class="d-flex justify-content-center justify-content-md-start">
+              <button type="button" class="btn btn-cta ">Tell me more</button>
+            </div>
+          </div>
+          <div class="my-5 col-12 col-md-7 d-flex align-items-center">
+            <img
+              class="img-fluid"
+              src="assets/images/hero-image-01.png"
+              alt=""
+            />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR SERVICES -->
+    <section id="services">
+      <div class="container-xl section-padding">
+        <div class="row mb-5">
+          <div class="col">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <h3 class="text-center mb-4">
+              Boost Digital is a full-service online marketing agency. We can
+              handle any element of your online marketing so you can get back to
+              doing what you do best — growing your business. All of our
+              services are offered on an ‘a la carte’ basis.
+            </h3>
+            <h4 class="text-center">
+              The following are just a few of the core services we offer:
+            </h4>
+          </div>
+        </div>
+
+        <!-- 1ST ROW -->
+        <div class="row mb-5 mb-lg-0">
+          <div class="col-md-6">
+            <img
+              class="img-fluid"
+              src="assets/images/service-strategy.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 align-self-center text-center text-md-left">
+            <h3 class="mb-3">Business Marketing Strategy</h3>
+            <p class="mb-3">
+              Let us strategize the big picture for you. With decades of
+              experience, we have seen what works and what doesn’t. And we can
+              leverage all that experience for your business.
+            </p>
+            <div class="mt-5">
+              <a class="button-orange" href="/html-pages/our-services/marketing-strategy.html">
+                IMPROVE MY BRAND!
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- 2ND ROW -->
+        <div class="row mb-5 mb-lg-0">
+          <div class="col-md-6 order-switch">
+            <img
+              class="img-fluid"
+              src="assets/images/service-content-creation.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 align-self-center text-center text-md-right">
+            <h3 class="mb-3">Content Creation and Marketing</h3>
+            <p>
+              You’ve heard it before. “Content is king.” Google loves it and
+              potential customers expect it. Our content creators have years of
+              experience working with Fortune 500, 100 and 50 companies.
+            </p>
+            <div class="mt-5">
+              <a class="button-orange-alt" href="/html-pages/our-services/content-creation.html">
+                CREATE MY CONTENT!
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3rd ROW -->
+        <div class="row mb-5 mb-lg-0">
+          <div class="col-md-6">
+            <img
+              class="img-fluid"
+              src="assets/images/service-graphic-design.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 align-self-center text-center text-md-left">
+            <h3 class="mb-3">Graphic & Publication Design</h3>
+            <p>
+              Our designers have decades of experience in everything from
+              tradeshow graphics to magazine layouts and logo design. If you
+              need it, we can design it!
+            </p>
+            <div class="mt-5">
+              <a class="button-orange" href="/html-pages/our-services/graphic-design.html">
+                DESIGN MY BRAND!
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4TH ROW -->
+        <div class="row mb-5 mb-lg-0">
+          <div class="col-md-6 order-switch">
+            <img
+              class="img-fluid"
+              src="assets/images/service-pay-per-click.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 align-self-center text-center text-md-right">
+            <h3 class="mb-3">Pay Per Click (PPC) Management</h3>
+            <p>
+              PPC advertising delivers some of the best ROI online… but it can
+              be overwhelming. Let us research your best keywords, headlines and
+              everything else you need to maintain a constant, profitable inflow
+              of new leads.
+            </p>
+            <div class="mt-5">
+              <a class="button-orange-alt" href="/html-pages/our-services/ppc-manage.html">
+                BOOST MY ROI!
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5TH ROW -->
+        <div class="row mb-5 mb-lg-0">
+          <div class="col-md-6">
+            <img class="img-fluid" src="assets/images/service-sns-manage.png" alt="" />
+          </div>
+          <div class="col-md-6 align-self-center text-center text-md-left">
+            <h3 class="mb-3">Social Media Management</h3>
+            <p>
+              Scratching your head over how to make social media work for you?
+              Our team has proven strategies that will help you win fans and
+              solidify your brand as an expert voice. In any industry!
+            </p>
+            <div class="mt-5">
+              <a class="button-orange" href="/html-pages/our-services/socmed-manage.html">
+                SOLIDIFY MY BRAND!
+              </a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- 6TH ROW -->
+        <div class="row mb-5 mb-lg-0">
+          <div class="col-md-6 order-switch">
+            <img
+              class="img-fluid"
+              src="assets/images/service-video production.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 align-self-center text-center text-md-right">
+            <h3 class="mb-3">Video Production & Editing</h3>
+            <p>
+              We will find you the most affordable,
+              most-appropriate-for-your-business hosting solutions. What’s more,
+              we’ll make sure your site stays online and be there for you if it
+              ever goes down.
+            </p>
+            <div class="mt-5">
+              <a class="button-orange-alt" href="/html-pages/our-services/video-production.html">
+                CREATE MY VIDEOS!
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7TH ROW -->
+        <div class="row mb-5 mb-lg-0">
+          <div class="col-md-6">
+            <img
+              class="img-fluid"
+              src="assets/images/service-hosting.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 align-self-center text-center text-md-left">
+            <h3 class="mb-3">Website Hosting & Management</h3>
+            <p>
+              We will find you the most affordable,
+              most-appropriate-for-your-business hosting solutions. What’s more,
+              we’ll make sure your site stays online and be there for you if it
+              ever goes down.
+            </p>
+            <div class="mt-5">
+              <a class="button-orange" href="/html-pages/our-services/website-hosting.html">
+                KEEP ME ONLINE!
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8TH ROW -->
+        <div class="row mb-5 mb-lg-0">
+          <div class="col-md-6 order-switch">
+            <img
+              class="img-fluid"
+              src="assets/images/service-website-design.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6 align-self-center text-center text-md-right">
+            <h3 class="mb-3">Website Design & Development</h3>
+            <p>
+              Nothing will kill your business faster than a dated, unattractive
+              or confusing website. Let us show you the most modern,
+              of-the-moment web design trends. Your prospects expect to be
+              impressed by your online presence – we’ll help you blow them away.
+            </p>
+            <div class="mt-5">
+              <a class="button-orange-alt" href="/html-pages/our-services/web-design.html">
+                DESIGN MY SUCCES!
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENTS NOW -->
+    <section class="trusted peach-gradient">
+      <div class="container-xl section-padding">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="mb-4 text-white">Our customers love us</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 col-md-2 my-5 d-flex justify-content-center">
+            <img class="img-fluid trusted-brand" src="assets/images/Starbucks-logo.png" alt="Company logo">
+          </div>
+          <div class="col-4 col-md-2 my-5 d-flex justify-content-center">
+            <img class="img-fluid trusted-brand" src="assets/images/logo-mcdo.png" alt="Company logo">
+          </div>
+          <div class="col-4 col-md-2 my-5 d-flex justify-content-center">
+            <img class="img-fluid trusted-brand" src="assets/images/Android_O_Preview_Logo.png" alt="Company logo">
+          </div>
+          <div class="col-4 col-md-2 my-5 d-flex justify-content-center">
+            <img class="img-fluid trusted-brand" src="assets/images/social-snapchat-2019-circle-512.png" alt="Company logo">
+          </div>
+          <div class="col-4 col-md-2 my-5 d-flex justify-content-center">
+            <img class="img-fluid trusted-brand" src="assets/images/687e1be6fe067f0b44800ac61b259816-circle-lion-logo-safari-by-vexels.png" alt="Company logo">
+          </div>
+          <div class="col-4 col-md-2 my-5 d-flex justify-content-center">
+            <img class="img-fluid trusted-brand" src="assets/images/adobe-after-effects-cc-circle-logo-E9DAC3B94F-seeklogo.com.png" alt="Company logo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBSCRIBE NOW -->
+    <section class="cta">
+      <div class="container-xl section-padding">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-left mb-5">
+            <h2 class="mb-4">Operating your business should't be this hard</h2>
+            <h4>See for yourself. Contact us today.</h4>
+          </div>
+          <div class="col-md-6 align-self-center justify-content-md-end">
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control form-control-lg w-100" id="exampleFormControlInput1" placeholder="Enter your email address">
+              </div>
+            </form>
+            <div class="d-flex justify-content-center justify-content-md-end">
+              <button type="button" class="btn btn-cta ">Tell me more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <footer id="footer">
+      <div class="container-xl section-padding-footer">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3">
+            <a class="navbar-img" href="#">
+              <img
+                class="mb-3"
+                src="assets/images/logo.png"
+                alt="Header Logo"
+                height="75"
+              />
+            </a>
+            <address class="color-light-20">
+            1600 Amphitheatre Parkway<br>
+            Mountain View, CA 94043
+            <br>
+            800-961-4601
+            </address>
+          </div>
+
+          <div class="col-md-6">
+            <div>
+              <div class="row">
+                <div class="col">
+                  <h4 class="my-2"><strong>Services</strong></h4>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="list-unstyled list-light text-white">
+                  <li class="mb-2"><a class="footer-item" href="/html-pages/our-services/marketing-strategy.html">Business Marketing Strategy</a></li>
+                  <li class="mb-2"><a class="footer-item" href="/html-pages/our-services/content-creation.html">Content Creation and Marketing</a></li>
+                  <li class="mb-2"><a class="footer-item" href="/html-pages/our-services/graphic-design.html">Graphic & Publication Design</a></li>
+                  <li class="mb-2"><a class="footer-item" href="/html-pages/our-services/video-production.html">Video Production & Editing</a></li>
+                   </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul class="list-unstyled list-light text-white">
+                    <li class="mb-2"><a class="footer-item" href="/html-pages/our-services/web-design.html">Website Design & Development</a></li>
+                    <li class="mb-2"><a class="footer-item" href="/html-pages/our-services/socmed-manage.html">Social Media Management</a></li>
+                    <li class="mb-2"><a class="footer-item" href="/html-pages/our-services/ppc-manage.html">Pay Per Click (PPC) Management</a></li>
+                    <li class="mb-2"><a class="footer-item" href="/html-pages/our-services/website-hosting.html">Website Hosting & Management</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br style="clear:both" class="hidden-sm-up">
+          <div class="col-md-3">
+              <h4 class="my-2"><strong>Quick Links</strong></h4>
+              <ul class="list-unstyled list-light">
+                  <li class="mb-2"><a class="footer-item" href="/html-pages/portfolio.html">Portfolio</a></li>
+                  <li class="mb-2"><a class="footer-item" href="/html-pages/blog.html">Blog</a></li>
+                  <li class="mb-2"><a class="footer-item" href="/html-pages/contact-us.html">Careers</a></li>
+                  <li class="mb-2"><a class="footer-item" href="/html-pages/contact-us.html">Contact</a></li>
+              </ul>
+              <ul class="list-unstyled d-flex flex-row justify-content-center justify-content-md-start">
+                <li class="nav-item mr-4">
+                  <a class="footer-link icon" href="https://facebook.com/" target="_blank">
+                    <span class="fa fa-facebook-square fa-lg"></span>
+                  </a>
+                </li>
+                <li class="nav-item mr-4">
+                  <a class="footer-link icon" href="https://twitter.com/home" target="_blank">
+                    <span class="fa fa-twitter-square fa-lg "></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="footer-link icon" data-toggle="modal" data-target="#exampleModal" href="#">
+                    <span class="fa fa-phone-square fa-lg"></span>
+                  </a>
+                </li>
+              </ul>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h3 class="modal-title" id="exampleModalLabel">Call us</h3>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body text-center">
+                  <h4>800-961-4601</h4>
+                  <h4>(+63) 919-396-6621</h4>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-service" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr/>
+        <div class="row d-flex justify-content-center">
+          <div class="col text-center my-1">
+            <p class="copyright mt-2 text-muted"> COPYRIGHT © 2016 BOOST DIGITAL LLC. ALL RIGHTS RESERVED.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+    ></script>
+    <!-- JASNY -->
+    <script src="https://www.jasny.net/bootstrap/dist/js/jasny-bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>
